@@ -1,0 +1,11 @@
+# Ignore local environment variables and secrets
+.env
+credentials/google_credentials.json
+
+# Ignore system log files
+log/
+error/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
